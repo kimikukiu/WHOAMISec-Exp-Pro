@@ -1,0 +1,13 @@
+[build]
+  command = "npx expo export -p web"
+  publish = "dist"
+
+[headers]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
