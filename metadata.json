@@ -1,0 +1,9 @@
+{
+  "name": "Copy of OSINT WHOAMISec Pro",
+  "description": "A professional-grade OSINT intelligence suite for extracting emails, phones, and domain intelligence with real-time data analysis and cyber-security metrics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
